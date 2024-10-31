@@ -1,0 +1,123 @@
+
+body{
+
+}
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    background-color: white;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+   margin: auto;
+   object-fit: cover;
+   margin-bottom: 10px;
+}
+
+.container .header{
+    text-align: center;   
+   margin: 10px; 
+   }
+
+.container .location{
+    text-align: center;
+    margin: 5px;
+    color: aqua;
+}
+
+.container .description{
+    text-align: center;
+    color: blue;
+    margin: 0px 0px 20px 0px
+}
+
+
+.container .links .link-one{
+    background-color: black;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    font-size: 20px; 
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%
+    
+}
+
+.container .links .link-two{
+    background-color: black;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%
+}
+
+.container .links .link-three{
+    background-color: black;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%
+}
+
+.container .links .link-four{
+    background-color: black;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    height: 40px;
+    width: 100%
+}
+
+.container .links .link-five{
+    background-color: black;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 100%
+}
+
+.container .footer{
+    text-align: center;
+
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color:#fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-container .text-two{
+    color: #474957;
+}
+.main-container .description{
+    font-size: 10px;
+    text-align: center;
+    color: #b2b1b5;
+}
+
+/* .main-container .container-one{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+}
+
+.main-container .container-two{
+    height: 150px;
+    width: 200px;
+    background-color: green;
+} */
+
+.main-container .container{
+    width: 680px;
+    min-height: 300px;
+    background:#fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-container .container-width{
+    width: 30%;
+    min-height: 50px;
+    /* background: red; */
+}
+
+.main-container .conatiner-style{
+    padding:20px;
+}
+.main-container .text-one{
+    font-size: 22px;
+    color: #b2b1b5;
+    
+}
+
+.main-container .container .x-container{
+    background-color: white;
+    height: 160px;
+    width: 200px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.main-container .container .x-container .line-one{
+    height: 3px;
+    width: 200px;
+    background-color: #5bbbbd;
+    margin: 0px 0px 10px 0px;
+}
+.main-container .container .x-container .header-one{
+    margin: 0px 20px;
+    color: #383a46;
+}
+.main-container .container .x-container .Supervisor{
+    font-size: 8px;
+    color: #b2b1b5;
+    margin: 0px 20px;
+}
+.main-container .container .x-container .img-one{
+    margin: 30px 0px 0px 140px;
+    height:40px ;
+}
+
+.main-container .container .y-container{
+    background-color:black ;
+    height: 350px;
+    width: 200px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.main-container .container .y-container .container-one{
+    width: 100%;
+    height: 155px;
+    color: white;
+    border-radius: 7px;
+}
+.main-container .container .y-container .container-two{
+    width: 100%;
+    height: 155px;
+    color: white;
+    border-radius: 7px;
+}
+
+.main-container .container .z-container{
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.main-container .container .z-container .line-two{
+    height: 3px;
+    width: 100%;
+    background-color: #528dc4;
+}
+.main-container .container .z-container .header-two{
+    margin: 0px 20px;
+    color: #474957;
+}
+.main-container .container .z-container .Calculator{
+    font-size: 8px;
+    color: #b2b1b5;
+    margin: 0px 20px;
+}
+.main-container .container .z-container .img-two{
+    margin: 30px 0px 0px 140px;
+    height:40px ;
+}

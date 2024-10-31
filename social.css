@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif; 
+
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-container .container{
+    width: 310px;
+    min-height: 400px;
+    background-color: rgb(31, 31, 31);
+    padding: 40px 30px 35px 30px;
+    border-radius: 7px;
+    color: #ffffffff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.main-container .container .profile-image{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.main-container .container .location{
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    font-weight: 700px;
+}
+
+.main-container .container .description{
+    margin: 5px 0px 15px 0px;
+    font-size: 12px;
+}
+
+.main-container .container .button-container .media-button{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 0px 0px 15px 0px;
+   background-color:  rgb(51, 51, 51);
+   color: #ffffffff;
+   font-family: 'Inter', sans-serif;
+   font-weight: 700px; 
+}
+.main-container .container .button-container .media-button:last-child{
+    margin: 0px;
+}
+.main-container .container .button-container .media-button:hover{
+    color: hsl(75, 94%, 57%); ;
+}

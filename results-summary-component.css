@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,800;1,800&display=swap');
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+   }
+   
+   *{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+   }
+   
+   .main-container{
+       background-color:#ffffff ;
+       height: 100vh;
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .main-container .container{
+       width: 450px ;
+       min-height: 300px;
+       background-color:#ffffff ;
+       display: flex;
+       border-radius: 20px;
+       overflow: hidden;
+       box-shadow: 2px 7px 7px 2px #e8effc;
+    }
+
+    .main-container .container .container-one{
+        width: 50%;
+        height: 100%;
+        background: linear-gradient( to bottom, #6442fc, #4e38f5,#4232f0,#4232f0);
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        padding: 20px 20px 25px 20px;
+        border-radius: 15px;
+        color: #ffffff;
+
+    }
+    .main-container .container .container-one .circle-container{
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        background-color:#442cde ;
+        position: relative;
+        bottom: 25px;
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+    }
+    .main-container .container .container-one .circle-container .number{
+        margin: 25px 0px 0px 0px;
+        font-size: 45px;
+    }
+    .main-container .container .container-one .circle-container .other-number{
+        font-size: 11px;
+        color: #c3bbf0;
+    }
+    .main-container .container .container-one .text{
+        font-size: 20px;
+        margin: 0px 0px 15px 0px;
+    }
+    .main-container .container .container-one .description{
+        font-size: 14px;
+        text-align: center;
+        color: #c3bbf0;
+    }
+
+    .main-container .container .container-two{
+        width: 50%;
+        height: 100%;
+        background:white;
+        padding: 20px 20px 25px 20px;
+    }
+    .main-container .container .container-two .summary{
+        font-size: 15px;
+        margin: 20px 0px;
+    }
+    .main-container .container .container-two .reaction-div{
+        height: 35px;
+        width: 100%;
+        background-color: #645f9d;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 7px;
+        background-color: #fff6f5;
+        margin: 10px 0px;;
+    }
+    .main-container .container .container-two .reaction{
+        margin: 0px 20px 0px 5px;
+    }
+    .main-container .container .container-two .content-one{
+        margin: 0px 25px 0px 0px;
+        color: #d17371;
+    }
+    .main-container .container .container-two .score-one{
+        color: #bab6ba;
+    }
+    .main-container .container .container-two .number-one{
+        font-size: 13px;
+        color:#545c6e ;
+    }
+
+    .main-container .container .container-two .memory-div{
+        height: 35px;
+        width: 100%;
+        background-color: #645f9d;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 7px;
+        background-color: #fffbf2;
+        margin: 10px 0px;
+    }
+    .main-container .container .container-two .memory{
+        margin: 0px 20px 0px 5px;
+    }
+    .main-container .container .container-two .content-two{
+        margin: 0px 25px 0px 0px;
+        color: #f0c889;
+    }
+    .main-container .container .container-two .score-two{
+        color: #bab6ba;
+    }
+    .main-container .container .container-two .number-two{
+        font-size: 13px;
+        color:#545c6e ;
+    }
+
+    .main-container .container .container-two .verbal-div{
+        height: 35px;
+        width: 100%;
+        background-color: #645f9d;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 7px;
+        background-color:#ebf5f5;
+        margin: 10px 0px;
+    }
+    .main-container .container .container-two .verbal{
+        margin: 0px 20px 0px 5px;
+    }
+    .main-container .container .container-two .content-three{
+        margin: 0px 35px 0px 0px;
+        color: #5dbaa4;
+    }
+    .main-container .container .container-two .score-three{
+        color: #bab6ba;
+    }
+    .main-container .container .container-two .number-three{
+        font-size: 13px;
+        color:#545c6e ;
+    }
+    .main-container .container .container-two .visual-div{
+        height: 35px;
+        width: 100%;
+        background-color: #645f9d;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 7px;
+        background-color:#f2f2fc;
+        margin: 10px 0px;
+    }
+    .main-container .container .container-two .visual{
+        margin: 0px 20px 0px 5px;
+    }
+    .main-container .container .container-two .content-four{
+        margin: 0px 35px 0px 0px;
+        color: #4050a8;
+    }
+    .main-container .container .container-two .score-four{
+        color: #bab6ba;
+    }
+    .main-container .container .container-two .number-four{
+        font-size: 13px;
+        color:#545c6e ;
+    }
+
+    .main-container .container .container-two .button{
+        width: 100%;
+        height: 30px;
+        margin: 20px 0px;
+        border-radius: 20px;
+        border: none;
+        outline: 0px;
+        background-color: #303b59;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .main-container .container .container-two .button:hover{
+        color:#f0c889;
+    }

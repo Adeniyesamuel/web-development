@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap');
+body{
+ font-family:"Figtree", sans-serif ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-color:#f5d14e ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .container{
+    width: 350px ;
+    min-height: 380px;
+    background-color:#ffffff ;
+    padding: 20px 20px 20px 25px ;
+    border-radius: 7px;
+    box-shadow: 3px 5px 5px 4px rgb(0, 0, 0);
+    /* text-align:left ; */
+}
+
+.main-container .container .image{
+    height: 200px;
+    padding: 10px 0px;
+}
+
+.main-container .container .button{
+    background-color:#f2d14e ;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-family: "Figtree", sans-serif;
+    width: fit-content;
+    
+}
+
+.main-container .container .date{
+    margin: 10px 0px;
+}
+.main-container .container .header{
+    margin: 0px 0px 10px 0px;
+}
+.main-container .container .text{
+    font-size: 13px;
+    margin: 5px 0px 20px 0px;
+    color: #dedede;
+}
+.main-container .container .author{
+    display: flex;
+    align-items: center;
+}
+.main-container .container .profile{
+    height: 40px;
+    width: 40px;
+    padding: 10px 0px px 0px;
+}
+.main-container .container .profile{
+    margin: 2px 10px 2px 0px;
+}

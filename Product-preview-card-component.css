@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap');
+body{
+
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color:#f2eae4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .container{
+    background-color: white;
+    min-height: 300px;
+    width: 400px;
+    display: flex;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.main-container .container .image-container{
+    height:100%;
+    width: 50%;
+    background-color: #000;
+}
+
+.main-container .container .image-container .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.main-container .container .text-container{
+    background-color:#ffffff ;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+}
+.main-container .container .text-container .perfume{
+    padding: 0px 0px 15px 0px;
+    color: #b1b2b5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+.main-container .container .text-container .descripion{
+    font-size: 12px;
+    color: #b1b2b5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 9.7px;
+}
+.main-container .container .text-container .header{
+    line-height: 20px; 
+    padding: 0px 0px 15px 0px;
+    font-family: "Fraunces", serif;                        
+}
+.main-container .container .text-container .price{
+    padding: 20px 10px 20px 0px;
+    color: #3b8066;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+.main-container .container .text-container .price-tag{
+    display: flex;
+    align-items: center;
+}
+.main-container .container .text-container .price-tag .old-price{
+    font-size: 10px;
+    text-decoration: line-through;
+    color: #b1b2b5;
+}
+.main-container .container .text-container .button{
+    width: 100%;
+    height: 30px;
+    background-color: #3b8066;
+    color: #ffffff;
+    border: none;
+    outline: 0px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 9px;
+}
