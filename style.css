@@ -105,7 +105,7 @@ a:hover{
 .links li{
     position: relative;
 }
-.links li .drop-down{
+/* .links li .drop-down{
     display: none;
     position: absolute;
     background-color: #fff;
@@ -137,7 +137,7 @@ a:hover{
 
 .drop-down li a:hover{
 background-color: #fff;
-}
+} */
  .image {
     position: absolute;
     top: 0%;
@@ -538,7 +538,7 @@ footer p i{
 }
 
 .picture{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .price{
@@ -558,6 +558,18 @@ footer p i{
     margin: 50px auto;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)85 ;
 }
+
+footer{
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+    font-family: "times";
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px
+}
+
 
 }
 
