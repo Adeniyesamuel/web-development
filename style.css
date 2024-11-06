@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;1,14..32,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -275,7 +276,7 @@ background-color: #fff;
   justify-content: space-between;
   width: 100%;
   max-width:1000px ;
-  font-family: "Domine", serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -520,7 +521,7 @@ footer p i{
   width: 100%;
   max-width:1000px ;
   padding:0px 20px 0px 35px ;
-  font-family: "Domine", serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -649,9 +650,9 @@ footer{
         width: 100%;
         max-width:1000px ;
         padding:0px 20px 0px 20px ;
-        font-family: "Inter", sans-serif;
+        font-family: "Poppins", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 100;
+        font-weight: 400;
         font-style: normal;
         font-size: 18px;
       }
