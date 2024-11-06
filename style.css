@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;1,14..32,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 body{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -274,9 +275,9 @@ background-color: #fff;
   justify-content: space-between;
   width: 100%;
   max-width:1000px ;
-  font-family: "Inter", sans-serif;
+  font-family: "Domine", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 20px;
 }
@@ -518,12 +519,12 @@ footer p i{
   justify-content: space-between;
   width: 100%;
   max-width:1000px ;
-  padding:0px 20px 0px 10px ;
-  font-family: "Inter", sans-serif;
+  padding:0px 20px 0px 35px ;
+  font-family: "Domine", serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
-  font-size: 11px;
+  font-size: 9.5px;
 }
 
 .title{
@@ -534,6 +535,7 @@ footer p i{
 .description .container-one .zini .me{
     height: 110px;
     background-color: #000;
+    margin-right: 10px;
 }
 
 .main-container{
@@ -542,6 +544,7 @@ footer p i{
     gap: 20px;
     justify-content: center;
     padding: 15px;
+    margin-left: 20px;
 }
 
 .order{
@@ -609,10 +612,12 @@ footer{
         gap: 20px;
         justify-content: center;
         padding: 15px;
+        margin-left: 30px;
+        margin-right: 20px;
     }    
 
     .order{
-    width: 175px;
+    width: 165px;
     height: 300px;
     text-align: center;
     background-color: #f9f9f9;
@@ -625,7 +630,7 @@ footer{
 
 .order img{
     height: 180px;
-    width: 140px;
+    width: 130px;
 }
 
     .contact{
@@ -657,6 +662,20 @@ footer{
           margin-left:10px ;
       }      
 
-      
-}
+      .description .container-one{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width:1000px ;
+        padding:0px 20px 0px 40px ;
+        font-family: "Domine", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+      }
 
+
+}
