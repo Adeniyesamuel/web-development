@@ -512,6 +512,9 @@ footer p i{
     align-content: center;
 }
 
+.youtube .video-container .video{
+    width: 370px;
+}
 
 .description .container-one{
   display: flex;
@@ -525,7 +528,7 @@ footer p i{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 9.5px;
+  font-size: 9px;
 }
 
 .title{
@@ -534,7 +537,7 @@ footer p i{
 }
 
 .description .container-one .zini .me{
-    height: 110px;
+    height: 100px;
     background-color: #000;
     margin-right: 10px;
 }
