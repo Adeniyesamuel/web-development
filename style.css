@@ -19,9 +19,9 @@ html {
     scroll-behavior: smooth;
 }
 
-label i{
+/* label i{
     color: #000;
-}
+} */
 
 #check{display: none;}
 
@@ -33,6 +33,7 @@ label i{
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
+    color: #000;
 }
 
 .close{
@@ -42,6 +43,7 @@ label i{
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
+    color: #f9f9f9;
 }
 
 a{
